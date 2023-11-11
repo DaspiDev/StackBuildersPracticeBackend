@@ -37,7 +37,6 @@ const getData = async () => {
 
         return fullList;
     });
-    console.info('RESULT', result);
     await browser.close();
     
     return result;

@@ -3,7 +3,6 @@ import Express from "express";
 const app = Express();
 
 app.get("/getData", async (req, res) => {
-    console.info('PUPPETEER', puppeteer())
     res.json(await puppeteer())
 })
 
